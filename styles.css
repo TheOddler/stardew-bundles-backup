@@ -1,0 +1,23 @@
+img {
+    height: 24px;
+}
+
+h2 img {
+    height: 32px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+}
+
+table td:first-child {
+    width: 160px;
+}
+
+table td:nth-child(2) {
+    width: 320px;
+}
