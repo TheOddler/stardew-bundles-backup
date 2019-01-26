@@ -1,23 +1,55 @@
-img {
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+}
+
+.bundle {
+    display: inline-block;
+    border: 1px solid lightgray;
+    margin: 5px 10px;
+}
+
+.bundle h2 {
+    padding: 10px;
+    margin: 0;
+    vertical-align: middle;
+    background: lightgray;
+}
+
+.bundle h2 img {
+    height: 32px;
+    vertical-align: middle;
+}
+
+.bundle img {
     height: 24px;
 }
 
-h2 img {
-    height: 32px;
-}
 
 table {
     border-collapse: collapse;
 }
 
-th, td {
-  border: 1px solid black;
+td {
+    border-top: 1px solid lightgray;
+    vertical-align: middle;
+}
+
+td img {
+    vertical-align: middle;
 }
 
 table td:first-child {
-    width: 160px;
+    width: 120px;
+    line-height: 24px;
+    border-right: 1px solid lightgray;
+    padding-left: 5px;
 }
 
 table td:nth-child(2) {
-    width: 320px;
+    width: 280px;
 }
+
